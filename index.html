@@ -1,26 +1,91 @@
 ---
-layout: default
-title: PyNash - The Nashville Python User Group
----
-<div class="jumbotron">
-    <h1>Welcome to PyNash!</h1>
-    <p class="lead">Join us for the next PyNash lunch, <a href="http://cal.nashvl.org/events/443">Wednesday March 6, 11:30am</a> at the <a href="http://12southtaproom.com/">12th South Taproom</a></p>
-    <iframe width="500" height="350" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=12+South+Taproom+%26+Grill,+12th+Avenue+South,+Nashville,+TN&amp;aq=0&amp;oq=12th+South+T&amp;sll=35.830521,-85.978599&amp;sspn=2.84123,5.817261&amp;t=m&amp;ie=UTF8&amp;hq=12+South+Taproom+%26+Grill,+12th+Avenue+South,+Nashville,+TN&amp;ll=36.126471,-86.788881&amp;spn=0.006066,0.011802&amp;z=16&amp;iwloc=A&amp;output=embed"></iframe>
-</div>
+layout:                 'default'
+title:                  'PyNash - The Nashville Python User Group'
 
-<div class="row-fluid">
-    <h4>Some PyNash People</h4>
-    <p>
-    <a href="https://twitter.com/paltman">Patrick Altman</a>,
-    <a href="https://twitter.com/scottsburns">Scott Burns</a>,
-    <a href="https://twitter.com/tsclausing">Scot Clausing</a>,
-    <a href="https://twitter.com/brian_dailey">Brian Dailey</a>,
-    <a href="https://twitter.com/binarydud">Matt George</a> (PyNash organizer),
-    <a href="https://twitter.com/R_Macy">Ryan Macy</a>,
-    <a href="https://twitter.com/jasonamyers">Jason A Myers</a>,
-    <a href="https://twitter.com/jorendorff">Jason Orendorff</a>
-    </p>
-</div>
-<div class="row-fluid">
-    <p>We also hangout on freenode in the #pynash channel.</p>
-</div>
+event-lead:             'Join The Next PyNash Lunch!'
+event-description:      'Time for another PyNash Lunch, Yay!'
+event-date:             'Wednesday, March 6, 11:30am'
+event-date-link:        'http://cal.nashvl.org/events/443'
+event-location:         '12th South Taproom'
+event-location-link:    'http://12southtaproom.com/'
+event-map:              '<iframe width="100%" height="350" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=12+south+taproom+%26+grill&amp;aq=&amp;sll=37.6,-95.665&amp;sspn=90.367111,79.013672&amp;t=m&amp;ie=UTF8&amp;hq=12+south+taproom+%26+grill&amp;cid=10787285137863516662&amp;hnear=&amp;ll=36.126437,-86.788902&amp;spn=0.024264,0.036478&amp;z=14&amp;iwloc=A&amp;output=embed"></iframe><br /><small><a href="https://maps.google.com/maps?f=q&amp;source=embed&amp;hl=en&amp;geocode=&amp;q=12+south+taproom+%26+grill&amp;aq=&amp;sll=37.6,-95.665&amp;sspn=90.367111,79.013672&amp;t=m&amp;ie=UTF8&amp;hq=12+south+taproom+%26+grill&amp;cid=10787285137863516662&amp;hnear=&amp;ll=36.126437,-86.788902&amp;spn=0.024264,0.036478&amp;z=14&amp;iwloc=A" style="color:#0000FF;text-align:left">View Larger Map</a></small>'
+
+companies:
+    -
+        name:   'StudioNow'
+        thumb:  '/img/studionow.png'
+        main:   'http://www.studionow.com'
+        jobs:   'http://www.studionow.com'
+    -
+        name:   'StudioNow'
+        thumb:  '/img/studionow.png'
+        main:   'http://www.studionow.com'
+        jobs:   'http://www.studionow.com'
+
+people:
+    -
+        name:   'Patrick Altman'
+    -
+        name:   'Scott Burns'
+        link:   'https://twitter.com/scottsburns'
+    -
+        name:   'Scot Clausing'
+        link:   'https://twitter.com/tsclausing'
+    -
+        name:   'Brian Dailey'
+        link:   'https://twitter.com/brian_dailey'
+    -
+        name:   'Matt George (organizer)'
+        link:   'https://twitter.com/binarydud'
+    -
+        name:   'Ryan Macy'
+        link:   'https://twitter.com/R_Macy'
+    -
+        name:   'Jason A Myers'
+        link:   'https://twitter.com/jasonamyers'
+    -
+        name:   'Jason Orendorff'
+        link:   'https://twitter.com/jorendorff'
+---
+<section id="introduction">
+    <div class="row-fluid">
+        <div id="welcome-background" class="span12">
+            <div id="welcome-message" class="span9">
+                <h1>Welcome.</h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                <p>Fusce vel lectus lectus.</p>
+            </div>
+            {% include event.html %}
+        </div>
+    </div>
+</section>
+
+<section id="about-pynash">
+    <div class="row-fluid">
+        <div class="span6">
+            <h2>About PyNash</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce vel lectus lectus. Donec et nulla non lacus pulvinar lacinia quis sit amet mi. Sed imperdiet lacus vel justo adipiscing eu dignissim sem ornare. Sed quis eros in libero luctus consectetur. Nunc faucibus, diam nec rhoncus imperdiet, erat felis adipiscing nulla, rhoncus pellentesque turpis libero et enim. Maecenas vestibulum lacus dui. Pellentesque nec nulla sit amet nibh tempus eleifend sit amet nec lacus.</p>
+            <p>Suspendisse pellentesque diam a arcu fermentum vel tincidunt nibh ornare. In congue nisl vestibulum sapien tristique mattis lobortis tellus vestibulum. Morbi vel nisi erat. Proin condimentum, neque non adipiscing accumsan, lectus lorem auctor nibh, a venenatis nisi lacus quis justo. Praesent tincidunt purus vel est blandit ut euismod augue bibendum. Cras dictum adipiscing tincidunt. Morbi congue enim vel ligula pharetra id aliquam enim consequat. Aenean scelerisque, ipsum in semper rutrum, diam elit ultricies dui, sodales venenatis libero ipsum in urna. Proin iaculis urna at velit pharetra ut pretium dui tincidunt. In id nunc velit.</p>
+        </div>
+        <div class="span6">
+            <h2>Get Involved!</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce vel lectus lectus. Donec et nulla non lacus pulvinar lacinia quis sit amet mi. Sed imperdiet lacus vel justo adipiscing eu dignissim sem ornare. Sed quis eros in libero luctus consectetur. Nunc faucibus, diam nec rhoncus imperdiet, erat felis adipiscing nulla, rhoncus pellentesque turpis libero et enim. Maecenas vestibulum lacus dui. Pellentesque nec nulla sit amet nibh tempus eleifend sit amet nec lacus.</p>
+            <p>Suspendisse pellentesque diam a arcu fermentum vel tincidunt nibh ornare. In congue nisl vestibulum sapien tristique mattis lobortis tellus vestibulum. Morbi vel nisi erat. Proin condimentum, neque non adipiscing accumsan, lectus lorem auctor nibh, a venenatis nisi lacus quis justo. Praesent tincidunt purus vel est blandit ut euismod augue bibendum. Cras dictum adipiscing tincidunt. Morbi congue enim vel ligula pharetra id aliquam enim consequat. Aenean scelerisque, ipsum in semper rutrum, diam elit ultricies dui, sodales venenatis libero ipsum in urna. Proin iaculis urna at velit pharetra ut pretium dui tincidunt. In id nunc velit.</p>
+        </div>
+    </div>
+</section>
+
+<section id="companies-people">
+    <div class="row-fluid">
+        <div id="companies" class="span6">
+            <h2>Companies</h2>
+            {% include companies.html %}
+        </div>
+        
+        <div id="people" class="span6">
+            <h2>People</h2>
+            {% include people.html %}
+            <p>We also hangout on freenode in the #pynash channel.</p>
+        </div>
+    </div>
+</section>

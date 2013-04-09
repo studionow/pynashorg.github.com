@@ -1,0 +1,11 @@
+<div id="company-grid">
+    {% for company in page.companies %}
+        <p class="company">
+            <a href="{{ company.main }}"><img src="{{ company.thumb }}" width="100%" /></a>
+            <a href="{{ company.main }}">{{ company.name }}</a> 
+            {% if company.jobs %}
+                <a href="{{ company.jobs }}">(Jobs)</a>
+            {% endif %}
+        </p>
+    {% endfor %}
+</div>
