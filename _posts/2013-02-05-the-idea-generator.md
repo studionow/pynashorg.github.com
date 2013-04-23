@@ -2,6 +2,7 @@
 layout: post
 title: The idea generator
 author: Jason Orendorff
+comments: true
 ---
 
 Welcome to the PyNash group blog!
@@ -21,8 +22,8 @@ Let&rsquo;s get to it.
 
 ## Random ideas
 
-I wrote a [talk submission form](http://co-op.nashvl.org/) for a local
-event recently. It unhelpfully suggests a random talk idea, just for laughs:
+I wrote a talk submission form for a local event recently.
+It unhelpfully suggested a random talk idea, just for laughs:
 
 <figure>
   <img src="/images/blog-content/random-idea.png">
