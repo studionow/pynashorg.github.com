@@ -1,6 +1,83 @@
+html {
+    font-size: 62.5% /* 10px */
+}
+
 body {
-  padding-top: 20px;
-  padding-bottom: 40px;
+    font-size: 1.4rem;
+}
+
+#welcome-background {
+    padding: 30px 15px;
+    background: url('/img/NashvilleSkyline.jpg') center center no-repeat;
+    background-size: cover;
+    box-shadow: 0px 0px 200px #000 inset;
+}
+
+#welcome-message h1 {
+    font-size: 7.5rem;
+    line-height: 7.5rem;
+    margin-top: 0px;
+    color: #FFFFFF;
+    text-shadow: 2px 2px 0px #000;
+}
+
+#welcome-message p {
+    font-size: 3rem;
+    line-height: 3rem;
+    color: #FFFFFF;
+    text-shadow: 1px 1px 0px #000;
+}
+
+#next-event {
+    text-align: center;
+    text-shadow: 1px 1px 0px #000;
+    color: #FFF;
+}
+
+#next-event p {
+    line-height: 2rem;
+}
+
+#next-event .event-date, #next-event .event-loc {
+    font-size: 1.6rem;
+    font-weight: bold;
+    color: #FBB450;
+}
+
+#next-event .event-lead {
+    font-weight: bold;
+}
+
+#next-event .event-at {
+    font-size: 2rem;
+}
+
+#event-button {
+    width: 85%;
+}
+
+#companies .company {
+    float: left;
+    width: 50%;
+    padding: 5px;
+    text-align: center;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+#companies .company img {
+    display: block;
+    margin: 0px auto 5px auto;
+}
+
+#people .person {
+    float: left;
+    width: 50%;
+    padding: 5px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
 }
 
 /* Custom container */
