@@ -1,0 +1,15 @@
+<div class="row-fluid">
+    <ul class="nav nav-pills nav-stacked">
+        {% for person in page.people %}
+            <li class="person">
+                {% if person.link %}
+                    <a href="{{ person.link }}">
+                {% else %}
+                    <a href="#">
+                {% endif %}
+                        {{ person.name }}
+                    </a>
+            </li>    
+        {% endfor %}
+    </ul>
+</div>
